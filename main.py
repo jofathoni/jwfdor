@@ -66,6 +66,7 @@ def show_main_menu(profile):
         ("5", "Beli Paket conference"),
         ("6", "BIZ lite (BIZ ORI only )"),
         ("7", "BIZ Data+ (BIZ ORI only )"),
+        ("cp", "catchplay"),
         ("8", "Beli Paket (Option Code)"),
         ("9", "Beli Paket (Family Code)"),
         ("10", "Beli Semua Paket (Loop)"),
@@ -148,6 +149,8 @@ def main():
                 get_packages_by_family("f3303d95-8454-4e80-bb25-38513d358a11")
             elif choice == "7":
                 get_packages_by_family("53de8ac3-521d-43f5-98ce-749ad0481709")
+            elif choice == "cp":
+                get_packages_by_family("b50cef3e-fcd0-4699-83a9-6f5740b7ef31")
             elif choice == "8":
                 option_code = cyber_input("Enter option code (or '99' to cancel)")
                 if option_code == "99":
