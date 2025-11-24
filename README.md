@@ -30,6 +30,18 @@ cd heavenly-demons-cli
 ```
 bash setup.sh
 ```
+Menambahkan Environment Variables:
+1. Buka https://rentry.co/me-sunset & copy
+2. Bikin file .env di dalam folder me-cli-sunset dengan isi text yang sudah di-copy tadi di dengan cara ketik
+```
+nano .env
+```
+enter
+paste
+ctrl+x
+y
+enter
+
 6. Run the script
 ```
 python main.py
